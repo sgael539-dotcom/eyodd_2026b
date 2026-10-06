@@ -6,7 +6,7 @@ de estudiantes.
 2. Es ver cuanto crece el numero de 
 operaciones en mi algoritmo conforme 
 crece el tamaño de la entrada
-Agrego las BigO identicas
+Agrego las Big O identicas
 Teniendo en cuenta la Cota superior asintotica
 O(n) + O(4) = O(4 + n) = O(n)
 '''
