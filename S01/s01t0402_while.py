@@ -10,7 +10,7 @@ import time
 
 # Crear las variables para
 #el problema
-n = 100
+n = 5000
 the_sum = 0
 
 # Tomando el t1

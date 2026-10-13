@@ -1,4 +1,4 @@
-git fetch origin e39a8b6"""
+"""
 Escribir un programa que calcule 
 la suma de los "n" numeros naturales.
 Por ejemplo si n = 100, el programa 
@@ -25,7 +25,8 @@ for repetition in range(1, 11):
     timestamp_01 = time.time()
 
     # Sumamos los n numeros
-    n = repetition * 100
+    n = repetition * 500
+    
     result = sum_of_n(n)
 
     # Tomamos el tiempo final
@@ -34,7 +35,6 @@ for repetition in range(1, 11):
 
     # Agregamos la tripleta de los datos al dataset
     dataset.append((n, elapsed_time, result))
-
 # Imprimimos el dataset
 for tup in dataset:
     print(tup)
